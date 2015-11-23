@@ -48,4 +48,11 @@ public class Utilities {
 				in.close();
 		}
 	}
+	/*
+	 * Serializes objects to memory in order to create deep copies
+	 * of the objects
+	 */
+	public static Object copyOf(Object anObject){
+		return null;		
+	}
 }
